@@ -1,0 +1,55 @@
+form {
+    font-family: oswald;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 360px;
+    padding: 0;
+}
+
+form fieldset input, textarea {
+    width: 320px;
+    background-color: white;
+    font-family: oswald;
+    outline: none;
+    border-radius: 8px;
+    resize: none;
+}
+
+form fieldset input:focus, textarea:focus {
+    border-color: cyan;
+}
+
+fieldset {
+    margin-top: 20px;
+    border: none;
+}
+
+.toc, p {
+    width: 360px;
+    display: block;
+    text-align: justify;
+}
+
+.submit {
+    font-family: oswald;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.submit:active {
+    background-color: rgb(73, 73, 68);
+    color: rgb(250, 250, 241);
+}
+
+.a_datenschutz {
+    text-decoration: 0;
+    color:rgb(25, 39, 240);
+    text-decoration: underline;
+}

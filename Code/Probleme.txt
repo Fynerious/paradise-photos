@@ -1,0 +1,4 @@
+- Maybe erledigt. Potra Schrift wird nicht erkannt. Fehlercode: downloadable font: rejected by sanitizer (font-family: "potra" style:normal weight:400 stretch:100 src index:0) source: https://paradise-photos.com/Fonts/Potra.light.ttf
+- Maybe erledigt. Bilder auf Protfolio.html werden nicht angezeigt. Vielleicht alt wegnehmen?
+- Maybe erledigt. Anfrage zu breit für Handy. 
+- Anfrage: Abschicken Button ist bei Handy ohne Schrift

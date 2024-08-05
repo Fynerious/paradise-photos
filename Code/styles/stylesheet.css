@@ -1,0 +1,110 @@
+* {
+    background-color: rgb(250, 250, 241);
+}
+
+@font-face {
+    font-family: potra;
+    font-style: normal;
+    src: url("/Fonts/Potra.light.ttf");
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: potra;
+}
+
+
+.letter {
+    color: cyan;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.hr_header {
+    margin: 2rem 7vw;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 14px 0 black;
+    height: 5px;
+    border: none;
+    background: linear-gradient(to right, rgb(172, 172, 172),cyan,rgb(172, 172, 172));
+}
+
+.option {
+    font-family: oswald;
+}
+
+.menu {
+    text-align: center;
+}
+
+.dropdown a {
+    text-decoration: none;
+    margin: 0 1vw;
+    color: black;
+    padding: 10px;
+    font-size: 1.4rem;
+    display: inline;
+}
+
+.option:hover {
+    background-color: black;
+    color: beige;
+    border-radius: 1.4rem;
+    box-shadow: 0 0 10px 0 rgb(73, 73, 68);
+}
+
+.dropdown a i:hover {
+    background-color: black;
+    color: beige;
+    border-radius: 1.4rem;
+    box-shadow: 0 0 10px 0 rgb(73, 73, 68);
+}
+
+footer section {
+    background-color: rgb(73, 73, 68);
+    margin: 0 -8px;
+    margin-bottom: -8px;
+    height: 130px;
+}
+
+.hr_footer {
+    padding: 0;
+    margin-top: 100px;
+    height: 30px;
+    border: none;
+    background: linear-gradient(to bottom, rgb(41, 41, 41), transparent);
+}
+
+.foot_right, .foot_left, .foot_p, .footer_link {
+    background-color: transparent;
+    color: rgb(250, 250, 241);
+    font-size: 1.2rem;
+    font-family: oswald;
+}
+
+.foot_right {
+    padding: 0;
+    width: 360px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.foot_p {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_link {
+    text-decoration: underline;
+}
+
+.footer_link:hover {
+    color: cyan;
+}
