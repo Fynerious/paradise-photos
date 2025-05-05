@@ -188,8 +188,8 @@ input, select, textarea {
 		src: url('/assets/webfonts/Potra.eot') format('embedded-opentype'),
 			url('/assets/webfonts/Potra.woff2') format('woff2'),
 			url('/assets/webfonts/Potra.woff') format('woff'),
-			url('/assets/webfonts/Potra.ttf') format('truetype'),
-			url('/assets/webfonts/Potra.svg#Potra') format('svg');
+			url('/assets/webfonts/Potra.ttf') format('truetype');
+			/* url('/assets/webfonts/Potra.svg#Potra') format('svg'); */
 		font-weight: 300;
 		font-style: normal;
 		font-display: swap;
